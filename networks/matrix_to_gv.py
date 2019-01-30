@@ -37,8 +37,8 @@ for name1 in collaborations_df.index:
         # with '<' returns True only if the first string comes alphabetically 
         # before the second string
         # For example, the following will be executed only when 
-        # name1 is Ann and name2 is Yvonne, but not when name1 is Ann and 
-        # name2 is Yvonne (because Ann < Yvonne):
+        # name1 is Ann and name2 is Yvonne, but not when name1 is Yvonne and 
+        # name2 is Ann (because Ann < Yvonne):
         if name1 < name2:
             # to express the link between two nodes in graphviz
             # we need to write:
