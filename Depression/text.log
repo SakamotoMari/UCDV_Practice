@@ -1,0 +1,1834 @@
+0
+---
+World Rank  World Rank               1.000000
+            2019 Score              -0.968108
+            Judical Effectiveness   -0.766262
+            Government Integrity    -0.788652
+            Tax Burden               0.094304
+            Gov't Spending           0.223306
+            Business Freedom        -0.769615
+            Trade Freedom           -0.725579
+            Investment Freedom      -0.749484
+            Financial Freedom       -0.785653
+dtype: float64
+1
+---
+2019 Score  2019 Score               1.000000
+            Judical Effectiveness    0.804141
+            Government Integrity     0.823918
+            Tax Burden              -0.084685
+            Gov't Spending          -0.176107
+            Business Freedom         0.781155
+            Trade Freedom            0.707837
+            Investment Freedom       0.755844
+            Financial Freedom        0.802993
+            Tariff Rate (%)         -0.558524
+dtype: float64
+2
+---
+Judical Effectiveness  Judical Effectiveness    1.000000
+                       Government Integrity     0.903879
+                       Tax Burden              -0.242813
+                       Gov't Spending          -0.294145
+                       Business Freedom         0.721116
+                       Trade Freedom            0.560665
+                       Investment Freedom       0.534589
+                       Financial Freedom        0.579682
+                       Tariff Rate (%)         -0.448289
+                       Income Tax Rate (%)      0.203878
+dtype: float64
+3
+---
+Government Integrity  Government Integrity      1.000000
+                      Tax Burden               -0.313119
+                      Gov't Spending           -0.380684
+                      Business Freedom          0.759559
+                      Trade Freedom             0.598489
+                      Investment Freedom        0.599988
+                      Financial Freedom         0.640887
+                      Tariff Rate (%)          -0.479232
+                      Income Tax Rate (%)       0.254004
+                      Corporate Tax Rate (%)   -0.259242
+dtype: float64
+4
+---
+Tax Burden  Tax Burden                1.000000
+            Gov't Spending            0.384672
+            Business Freedom         -0.111282
+            Trade Freedom            -0.081059
+            Investment Freedom       -0.292362
+            Financial Freedom        -0.166157
+            Tariff Rate (%)           0.051727
+            Income Tax Rate (%)      -0.903936
+            Corporate Tax Rate (%)   -0.520716
+            Tax Burden % of GDP      -0.620493
+dtype: float64
+5
+---
+Gov't Spending  Gov't Spending                 1.000000
+                Business Freedom              -0.344541
+                Trade Freedom                 -0.443986
+                Investment Freedom            -0.234734
+                Financial Freedom             -0.279846
+                Tariff Rate (%)                0.460128
+                Income Tax Rate (%)           -0.085633
+                Corporate Tax Rate (%)         0.290047
+                Tax Burden % of GDP           -0.712396
+                Gov't Expenditure % of GDP    -0.885522
+dtype: float64
+6
+---
+Business Freedom  Business Freedom               1.000000
+                  Trade Freedom                  0.671547
+                  Investment Freedom             0.555458
+                  Financial Freedom              0.633743
+                  Tariff Rate (%)               -0.569032
+                  Income Tax Rate (%)            0.057841
+                  Corporate Tax Rate (%)        -0.373935
+                  Tax Burden % of GDP            0.443154
+                  Gov't Expenditure % of GDP     0.213682
+                  Population (Millions)         -0.069491
+dtype: float64
+7
+---
+Trade Freedom  Trade Freedom                  1.000000
+               Investment Freedom             0.654091
+               Financial Freedom              0.637441
+               Tariff Rate (%)               -0.952542
+               Income Tax Rate (%)            0.013694
+               Corporate Tax Rate (%)        -0.397625
+               Tax Burden % of GDP            0.447440
+               Gov't Expenditure % of GDP     0.467411
+               Population (Millions)         -0.058871
+               GDP Growth Rate (%)            0.050400
+dtype: float64
+8
+---
+Investment Freedom   Investment Freedom             1.000000
+                     Financial Freedom              0.791400
+                     Tariff Rate (%)               -0.514942
+                     Income Tax Rate (%)            0.242627
+                     Corporate Tax Rate (%)        -0.195133
+                     Tax Burden % of GDP            0.482413
+                     Gov't Expenditure % of GDP     0.086482
+                     Population (Millions)         -0.178177
+                     GDP Growth Rate (%)           -0.177270
+                     5 Year GDP Growth Rate (%)     0.043857
+dtype: float64
+9
+---
+Financial Freedom  Financial Freedom              1.000000
+                   Tariff Rate (%)               -0.514599
+                   Income Tax Rate (%)            0.109744
+                   Corporate Tax Rate (%)        -0.326800
+                   Tax Burden % of GDP            0.386026
+                   Gov't Expenditure % of GDP     0.290206
+                   Population (Millions)         -0.144696
+                   GDP Growth Rate (%)            0.013037
+                   5 Year GDP Growth Rate (%)    -0.062854
+                   pf_rol_procedural              0.670387
+dtype: float64
+10
+---
+Tariff Rate (%)  Tariff Rate (%)                1.000000
+                 Income Tax Rate (%)            0.015489
+                 Corporate Tax Rate (%)         0.362384
+                 Tax Burden % of GDP           -0.412560
+                 Gov't Expenditure % of GDP    -0.483608
+                 Population (Millions)          0.011131
+                 GDP Growth Rate (%)           -0.021963
+                 5 Year GDP Growth Rate (%)     0.051025
+                 pf_rol_procedural             -0.501804
+                 pf_rol_civil                  -0.426006
+dtype: float64
+11
+---
+Income Tax Rate (%)  Income Tax Rate (%)            1.000000
+                     Corporate Tax Rate (%)         0.552376
+                     Tax Burden % of GDP            0.384192
+                     Gov't Expenditure % of GDP     0.001990
+                     Population (Millions)          0.122331
+                     GDP Growth Rate (%)           -0.081840
+                     5 Year GDP Growth Rate (%)     0.024050
+                     pf_rol_procedural              0.316923
+                     pf_rol_civil                   0.354729
+                     pf_rol_criminal                0.320543
+dtype: float64
+12
+---
+Corporate Tax Rate (%)  Corporate Tax Rate (%)         1.000000
+                        Tax Burden % of GDP           -0.068706
+                        Gov't Expenditure % of GDP    -0.271570
+                        Population (Millions)          0.128895
+                        GDP Growth Rate (%)           -0.019176
+                        5 Year GDP Growth Rate (%)     0.088321
+                        pf_rol_procedural             -0.274356
+                        pf_rol_civil                  -0.255037
+                        pf_rol_criminal               -0.329159
+                        pf_rol                        -0.274412
+dtype: float64
+13
+---
+Tax Burden % of GDP  Tax Burden % of GDP            1.000000
+                     Gov't Expenditure % of GDP     0.728852
+                     Population (Millions)         -0.149894
+                     GDP Growth Rate (%)           -0.053171
+                     5 Year GDP Growth Rate (%)    -0.300320
+                     pf_rol_procedural              0.732825
+                     pf_rol_civil                   0.578035
+                     pf_rol_criminal                0.552608
+                     pf_rol                         0.589677
+                     pf_ss_homicide                 0.081575
+dtype: float64
+14
+---
+Gov't Expenditure % of GDP   Gov't Expenditure % of GDP     1.000000
+                             Population (Millions)         -0.078823
+                             GDP Growth Rate (%)            0.483353
+                             5 Year GDP Growth Rate (%)    -0.523261
+                             pf_rol_procedural              0.620692
+                             pf_rol_civil                   0.520012
+                             pf_rol_criminal                0.500568
+                             pf_rol                         0.268837
+                             pf_ss_homicide                 0.211256
+                             pf_ss_disappearances_disap     0.150942
+dtype: float64
+15
+---
+Population (Millions)  Population (Millions)           1.000000
+                       GDP Growth Rate (%)             0.053814
+                       5 Year GDP Growth Rate (%)      0.196761
+                       pf_rol_procedural              -0.147539
+                       pf_rol_civil                   -0.113522
+                       pf_rol_criminal                -0.075974
+                       pf_rol                         -0.087103
+                       pf_ss_homicide                  0.049710
+                       pf_ss_disappearances_disap     -0.409779
+                       pf_ss_disappearances_violent   -0.009577
+dtype: float64
+16
+---
+GDP Growth Rate (%)  GDP Growth Rate (%)               1.000000
+                     5 Year GDP Growth Rate (%)       -0.009355
+                     pf_rol_procedural                -0.114756
+                     pf_rol_civil                     -0.128069
+                     pf_rol_criminal                  -0.040789
+                     pf_rol                           -0.131972
+                     pf_ss_homicide                    0.168277
+                     pf_ss_disappearances_disap       -0.130783
+                     pf_ss_disappearances_violent     -0.359326
+                     pf_ss_disappearances_organized   -0.203304
+dtype: float64
+17
+---
+5 Year GDP Growth Rate (%)  5 Year GDP Growth Rate (%)         1.000000
+                            pf_rol_procedural                 -0.304139
+                            pf_rol_civil                      -0.282983
+                            pf_rol_criminal                   -0.201270
+                            pf_rol                            -0.134184
+                            pf_ss_homicide                     0.188258
+                            pf_ss_disappearances_disap        -0.114003
+                            pf_ss_disappearances_violent       0.223261
+                            pf_ss_disappearances_organized    -0.040622
+                            pf_ss_disappearances_fatalities    0.171522
+dtype: float64
+18
+---
+pf_rol_procedural  pf_rol_procedural                  1.000000
+                   pf_rol_civil                       0.832242
+                   pf_rol_criminal                    0.846240
+                   pf_rol                             0.948226
+                   pf_ss_homicide                     0.287688
+                   pf_ss_disappearances_disap         0.443571
+                   pf_ss_disappearances_violent       0.246886
+                   pf_ss_disappearances_organized     0.681125
+                   pf_ss_disappearances_fatalities    0.251121
+                   pf_ss_disappearances_injuries      0.219292
+dtype: float64
+19
+---
+pf_rol_civil  pf_rol_civil                       1.000000
+              pf_rol_criminal                    0.913843
+              pf_rol                             0.950438
+              pf_ss_homicide                     0.308804
+              pf_ss_disappearances_disap         0.347546
+              pf_ss_disappearances_violent       0.237231
+              pf_ss_disappearances_organized     0.588967
+              pf_ss_disappearances_fatalities    0.234021
+              pf_ss_disappearances_injuries      0.204887
+              pf_ss_disappearances               0.432008
+dtype: float64
+20
+---
+pf_rol_criminal  pf_rol_criminal                    1.000000
+                 pf_rol                             0.960239
+                 pf_ss_homicide                     0.447376
+                 pf_ss_disappearances_disap         0.305412
+                 pf_ss_disappearances_violent       0.211093
+                 pf_ss_disappearances_organized     0.599288
+                 pf_ss_disappearances_fatalities    0.214975
+                 pf_ss_disappearances_injuries      0.214722
+                 pf_ss_disappearances               0.411998
+                 pf_ss_women_fgm                    0.206891
+dtype: float64
+21
+---
+pf_rol  pf_rol                             1.000000
+        pf_ss_homicide                     0.335115
+        pf_ss_disappearances_disap         0.378137
+        pf_ss_disappearances_violent       0.305254
+        pf_ss_disappearances_organized     0.626229
+        pf_ss_disappearances_fatalities    0.295647
+        pf_ss_disappearances_injuries      0.241266
+        pf_ss_disappearances               0.471187
+        pf_ss_women_fgm                    0.269359
+        pf_ss_women_missing                0.261285
+dtype: float64
+22
+---
+pf_ss_homicide  pf_ss_homicide                     1.000000
+                pf_ss_disappearances_disap         0.054998
+                pf_ss_disappearances_violent      -0.012169
+                pf_ss_disappearances_organized     0.131926
+                pf_ss_disappearances_fatalities   -0.017895
+                pf_ss_disappearances_injuries     -0.068856
+                pf_ss_disappearances               0.024390
+                pf_ss_women_fgm                    0.040829
+                pf_ss_women_missing               -0.113074
+                pf_ss_women_inheritance_widows    -0.114127
+dtype: float64
+23
+---
+pf_ss_disappearances_disap  pf_ss_disappearances_disap           1.000000
+                            pf_ss_disappearances_violent         0.525777
+                            pf_ss_disappearances_organized       0.547935
+                            pf_ss_disappearances_fatalities      0.467869
+                            pf_ss_disappearances_injuries        0.337467
+                            pf_ss_disappearances                 0.752091
+                            pf_ss_women_fgm                      0.174569
+                            pf_ss_women_missing                  0.385289
+                            pf_ss_women_inheritance_widows       0.279964
+                            pf_ss_women_inheritance_daughters    0.280507
+dtype: float64
+24
+---
+pf_ss_disappearances_violent  pf_ss_disappearances_violent         1.000000
+                              pf_ss_disappearances_organized       0.592467
+                              pf_ss_disappearances_fatalities      0.902850
+                              pf_ss_disappearances_injuries        0.764828
+                              pf_ss_disappearances                 0.884454
+                              pf_ss_women_fgm                      0.097962
+                              pf_ss_women_missing                  0.233515
+                              pf_ss_women_inheritance_widows       0.271478
+                              pf_ss_women_inheritance_daughters    0.271246
+                              pf_ss_women_inheritance              0.275534
+dtype: float64
+25
+---
+pf_ss_disappearances_organized  pf_ss_disappearances_organized       1.000000
+                                pf_ss_disappearances_fatalities      0.625253
+                                pf_ss_disappearances_injuries        0.551963
+                                pf_ss_disappearances                 0.821104
+                                pf_ss_women_fgm                      0.180478
+                                pf_ss_women_missing                  0.345028
+                                pf_ss_women_inheritance_widows       0.461165
+                                pf_ss_women_inheritance_daughters    0.493348
+                                pf_ss_women_inheritance              0.484266
+                                pf_ss_women                          0.500626
+dtype: float64
+26
+---
+pf_ss_disappearances_fatalities  pf_ss_disappearances_fatalities      1.000000
+                                 pf_ss_disappearances_injuries        0.789372
+                                 pf_ss_disappearances                 0.882259
+                                 pf_ss_women_fgm                      0.122069
+                                 pf_ss_women_missing                  0.258350
+                                 pf_ss_women_inheritance_widows       0.369001
+                                 pf_ss_women_inheritance_daughters    0.389051
+                                 pf_ss_women_inheritance              0.384973
+                                 pf_ss_women                          0.345391
+                                 pf_ss                                0.552667
+dtype: float64
+27
+---
+pf_ss_disappearances_injuries  pf_ss_disappearances_injuries        1.000000
+                               pf_ss_disappearances                 0.787230
+                               pf_ss_women_fgm                      0.050701
+                               pf_ss_women_missing                  0.202417
+                               pf_ss_women_inheritance_widows       0.359988
+                               pf_ss_women_inheritance_daughters    0.370266
+                               pf_ss_women_inheritance              0.370803
+                               pf_ss_women                          0.297128
+                               pf_ss                                0.453242
+                               pf_movement_domestic                 0.226322
+dtype: float64
+28
+---
+pf_ss_disappearances  pf_ss_disappearances                 1.000000
+                      pf_ss_women_fgm                      0.165076
+                      pf_ss_women_missing                  0.358374
+                      pf_ss_women_inheritance_widows       0.419932
+                      pf_ss_women_inheritance_daughters    0.439100
+                      pf_ss_women_inheritance              0.436234
+                      pf_ss_women                          0.408861
+                      pf_ss                                0.661697
+                      pf_movement_domestic                 0.441381
+                      pf_movement_foreign                  0.335504
+dtype: float64
+29
+---
+pf_ss_women_fgm  pf_ss_women_fgm                      1.000000
+                 pf_ss_women_missing                  0.051847
+                 pf_ss_women_inheritance_widows       0.178753
+                 pf_ss_women_inheritance_daughters    0.244485
+                 pf_ss_women_inheritance              0.215434
+                 pf_ss_women                          0.550642
+                 pf_ss                                0.334825
+                 pf_movement_domestic                 0.102145
+                 pf_movement_foreign                  0.014742
+                 pf_movement_women                    0.193131
+dtype: float64
+30
+---
+pf_ss_women_missing  pf_ss_women_missing                  1.000000
+                     pf_ss_women_inheritance_widows       0.429673
+                     pf_ss_women_inheritance_daughters    0.429525
+                     pf_ss_women_inheritance              0.436463
+                     pf_ss_women                          0.604239
+                     pf_ss                                0.352062
+                     pf_movement_domestic                 0.450528
+                     pf_movement_foreign                  0.465496
+                     pf_movement_women                    0.429616
+                     pf_movement                          0.561016
+dtype: float64
+31
+---
+pf_ss_women_inheritance_widows  pf_ss_women_inheritance_widows       1.000000
+                                pf_ss_women_inheritance_daughters    0.939865
+                                pf_ss_women_inheritance              0.984496
+                                pf_ss_women                          0.848403
+                                pf_ss                                0.507871
+                                pf_movement_domestic                 0.266912
+                                pf_movement_foreign                  0.370715
+                                pf_movement_women                    0.570118
+                                pf_movement                          0.502214
+                                pf_religion_estop_establish               NaN
+dtype: float64
+32
+---
+pf_ss_women_inheritance_daughters  pf_ss_women_inheritance_daughters    1.000000
+                                   pf_ss_women_inheritance              0.985203
+                                   pf_ss_women                          0.870205
+                                   pf_ss                                0.548791
+                                   pf_movement_domestic                 0.321902
+                                   pf_movement_foreign                  0.410341
+                                   pf_movement_women                    0.597059
+                                   pf_movement                          0.557056
+                                   pf_religion_estop_establish               NaN
+                                   pf_religion_estop_operate                 NaN
+dtype: float64
+33
+---
+pf_ss_women_inheritance  pf_ss_women_inheritance        1.000000
+                         pf_ss_women                    0.872648
+                         pf_ss                          0.536697
+                         pf_movement_domestic           0.298796
+                         pf_movement_foreign            0.396181
+                         pf_movement_women              0.593079
+                         pf_movement                    0.538103
+                         pf_religion_estop_establish         NaN
+                         pf_religion_estop_operate           NaN
+                         pf_religion_estop              0.430801
+dtype: float64
+34
+---
+pf_ss_women  pf_ss_women                    1.000000
+             pf_ss                          0.579923
+             pf_movement_domestic           0.322994
+             pf_movement_foreign            0.392818
+             pf_movement_women              0.604858
+             pf_movement                    0.530679
+             pf_religion_estop_establish         NaN
+             pf_religion_estop_operate           NaN
+             pf_religion_estop              0.480281
+             pf_religion_harassment         0.259024
+dtype: float64
+35
+---
+pf_ss  pf_ss                          1.000000
+       pf_movement_domestic           0.247567
+       pf_movement_foreign            0.182271
+       pf_movement_women              0.407814
+       pf_movement                    0.341647
+       pf_religion_estop_establish         NaN
+       pf_religion_estop_operate           NaN
+       pf_religion_estop              0.241267
+       pf_religion_harassment         0.124281
+       pf_religion_restrictions       0.046014
+dtype: float64
+36
+---
+pf_movement_domestic  pf_movement_domestic           1.000000
+                      pf_movement_foreign            0.586581
+                      pf_movement_women              0.349974
+                      pf_movement                    0.826701
+                      pf_religion_estop_establish         NaN
+                      pf_religion_estop_operate           NaN
+                      pf_religion_estop              0.365499
+                      pf_religion_harassment         0.356626
+                      pf_religion_restrictions       0.321510
+                      pf_religion                    0.380588
+dtype: float64
+37
+---
+pf_movement_foreign  pf_movement_foreign            1.000000
+                     pf_movement_women              0.379379
+                     pf_movement                    0.833640
+                     pf_religion_estop_establish         NaN
+                     pf_religion_estop_operate           NaN
+                     pf_religion_estop              0.487965
+                     pf_religion_harassment         0.413417
+                     pf_religion_restrictions       0.503079
+                     pf_religion                    0.550528
+                     pf_association_association     0.570360
+dtype: float64
+38
+---
+pf_movement_women  pf_movement_women              1.000000
+                   pf_movement                    0.717566
+                   pf_religion_estop_establish         NaN
+                   pf_religion_estop_operate           NaN
+                   pf_religion_estop              0.368914
+                   pf_religion_harassment         0.229566
+                   pf_religion_restrictions       0.324807
+                   pf_religion                    0.384610
+                   pf_association_association     0.528328
+                   pf_association_assembly        0.473286
+dtype: float64
+39
+---
+pf_movement  pf_movement                           1.000000
+             pf_religion_estop_establish                NaN
+             pf_religion_estop_operate                  NaN
+             pf_religion_estop                     0.506371
+             pf_religion_harassment                0.430631
+             pf_religion_restrictions              0.488418
+             pf_religion                           0.544212
+             pf_association_association            0.647228
+             pf_association_assembly               0.607579
+             pf_association_political_establish         NaN
+dtype: float64
+40
+---
+pf_religion_estop_establish  pf_religion_estop_establish          NaN
+                             pf_religion_estop_operate            NaN
+                             pf_religion_estop                    NaN
+                             pf_religion_harassment               NaN
+                             pf_religion_restrictions             NaN
+                             pf_religion                          NaN
+                             pf_association_association           NaN
+                             pf_association_assembly              NaN
+                             pf_association_political_establish   NaN
+                             pf_association_political_operate     NaN
+dtype: float64
+41
+---
+pf_religion_estop_operate  pf_religion_estop_operate            NaN
+                           pf_religion_estop                    NaN
+                           pf_religion_harassment               NaN
+                           pf_religion_restrictions             NaN
+                           pf_religion                          NaN
+                           pf_association_association           NaN
+                           pf_association_assembly              NaN
+                           pf_association_political_establish   NaN
+                           pf_association_political_operate     NaN
+                           pf_association_political             NaN
+dtype: float64
+42
+---
+pf_religion_estop  pf_religion_estop                     1.000000
+                   pf_religion_harassment                0.331016
+                   pf_religion_restrictions              0.482426
+                   pf_religion                           0.887354
+                   pf_association_association            0.617744
+                   pf_association_assembly               0.568445
+                   pf_association_political_establish         NaN
+                   pf_association_political_operate           NaN
+                   pf_association_political              0.716296
+                   pf_association_prof_establish              NaN
+dtype: float64
+43
+---
+pf_religion_harassment  pf_religion_harassment                1.000000
+                        pf_religion_restrictions              0.625068
+                        pf_religion                           0.673181
+                        pf_association_association            0.164547
+                        pf_association_assembly               0.155368
+                        pf_association_political_establish         NaN
+                        pf_association_political_operate           NaN
+                        pf_association_political              0.143282
+                        pf_association_prof_establish              NaN
+                        pf_association_prof_operate                NaN
+dtype: float64
+44
+---
+pf_religion_restrictions  pf_religion_restrictions              1.000000
+                          pf_religion                           0.806850
+                          pf_association_association            0.393932
+                          pf_association_assembly               0.366975
+                          pf_association_political_establish         NaN
+                          pf_association_political_operate           NaN
+                          pf_association_political              0.369879
+                          pf_association_prof_establish              NaN
+                          pf_association_prof_operate                NaN
+                          pf_association_prof                   0.383141
+dtype: float64
+45
+---
+pf_religion  pf_religion                           1.000000
+             pf_association_association            0.596789
+             pf_association_assembly               0.549521
+             pf_association_political_establish         NaN
+             pf_association_political_operate           NaN
+             pf_association_political              0.630525
+             pf_association_prof_establish              NaN
+             pf_association_prof_operate                NaN
+             pf_association_prof                   0.649519
+             pf_association_sport_establish             NaN
+dtype: float64
+46
+---
+pf_association_association  pf_association_association            1.000000
+                            pf_association_assembly               0.883015
+                            pf_association_political_establish         NaN
+                            pf_association_political_operate           NaN
+                            pf_association_political              0.800149
+                            pf_association_prof_establish              NaN
+                            pf_association_prof_operate                NaN
+                            pf_association_prof                   0.692353
+                            pf_association_sport_establish             NaN
+                            pf_association_sport_operate               NaN
+dtype: float64
+47
+---
+pf_association_assembly  pf_association_assembly               1.000000
+                         pf_association_political_establish         NaN
+                         pf_association_political_operate           NaN
+                         pf_association_political              0.798524
+                         pf_association_prof_establish              NaN
+                         pf_association_prof_operate                NaN
+                         pf_association_prof                   0.640943
+                         pf_association_sport_establish             NaN
+                         pf_association_sport_operate               NaN
+                         pf_association_sport                  0.619126
+dtype: float64
+48
+---
+pf_association_political_establish  pf_association_political_establish   NaN
+                                    pf_association_political_operate     NaN
+                                    pf_association_political             NaN
+                                    pf_association_prof_establish        NaN
+                                    pf_association_prof_operate          NaN
+                                    pf_association_prof                  NaN
+                                    pf_association_sport_establish       NaN
+                                    pf_association_sport_operate         NaN
+                                    pf_association_sport                 NaN
+                                    pf_association                       NaN
+dtype: float64
+49
+---
+pf_association_political_operate  pf_association_political_operate   NaN
+                                  pf_association_political           NaN
+                                  pf_association_prof_establish      NaN
+                                  pf_association_prof_operate        NaN
+                                  pf_association_prof                NaN
+                                  pf_association_sport_establish     NaN
+                                  pf_association_sport_operate       NaN
+                                  pf_association_sport               NaN
+                                  pf_association                     NaN
+                                  pf_expression_killed               NaN
+dtype: float64
+50
+---
+pf_association_political  pf_association_political          1.000000
+                          pf_association_prof_establish          NaN
+                          pf_association_prof_operate            NaN
+                          pf_association_prof               0.773530
+                          pf_association_sport_establish         NaN
+                          pf_association_sport_operate           NaN
+                          pf_association_sport              0.743967
+                          pf_association                    0.929185
+                          pf_expression_killed              0.023598
+                          pf_expression_jailed              0.293934
+dtype: float64
+51
+---
+pf_association_prof_establish  pf_association_prof_establish    NaN
+                               pf_association_prof_operate      NaN
+                               pf_association_prof              NaN
+                               pf_association_sport_establish   NaN
+                               pf_association_sport_operate     NaN
+                               pf_association_sport             NaN
+                               pf_association                   NaN
+                               pf_expression_killed             NaN
+                               pf_expression_jailed             NaN
+                               pf_expression_influence          NaN
+dtype: float64
+52
+---
+pf_association_prof_operate  pf_association_prof_operate      NaN
+                             pf_association_prof              NaN
+                             pf_association_sport_establish   NaN
+                             pf_association_sport_operate     NaN
+                             pf_association_sport             NaN
+                             pf_association                   NaN
+                             pf_expression_killed             NaN
+                             pf_expression_jailed             NaN
+                             pf_expression_influence          NaN
+                             pf_expression_control            NaN
+dtype: float64
+53
+---
+pf_association_prof  pf_association_prof               1.000000
+                     pf_association_sport_establish         NaN
+                     pf_association_sport_operate           NaN
+                     pf_association_sport              0.781193
+                     pf_association                    0.873645
+                     pf_expression_killed              0.119930
+                     pf_expression_jailed              0.160326
+                     pf_expression_influence           0.677771
+                     pf_expression_control             0.605021
+                     pf_expression_cable               0.557180
+dtype: float64
+54
+---
+pf_association_sport_establish  pf_association_sport_establish   NaN
+                                pf_association_sport_operate     NaN
+                                pf_association_sport             NaN
+                                pf_association                   NaN
+                                pf_expression_killed             NaN
+                                pf_expression_jailed             NaN
+                                pf_expression_influence          NaN
+                                pf_expression_control            NaN
+                                pf_expression_cable              NaN
+                                pf_expression_newspapers         NaN
+dtype: float64
+55
+---
+pf_association_sport_operate  pf_association_sport_operate   NaN
+                              pf_association_sport           NaN
+                              pf_association                 NaN
+                              pf_expression_killed           NaN
+                              pf_expression_jailed           NaN
+                              pf_expression_influence        NaN
+                              pf_expression_control          NaN
+                              pf_expression_cable            NaN
+                              pf_expression_newspapers       NaN
+                              pf_expression_internet         NaN
+dtype: float64
+56
+---
+pf_association_sport  pf_association_sport        1.000000
+                      pf_association              0.853153
+                      pf_expression_killed        0.162580
+                      pf_expression_jailed        0.190800
+                      pf_expression_influence     0.603951
+                      pf_expression_control       0.564101
+                      pf_expression_cable         0.657741
+                      pf_expression_newspapers    0.699211
+                      pf_expression_internet      0.673319
+                      pf_expression               0.723537
+dtype: float64
+57
+---
+pf_association  pf_association              1.000000
+                pf_expression_killed        0.110038
+                pf_expression_jailed        0.267222
+                pf_expression_influence     0.803697
+                pf_expression_control       0.752356
+                pf_expression_cable         0.670938
+                pf_expression_newspapers    0.718708
+                pf_expression_internet      0.761492
+                pf_expression               0.835058
+                pf_identity_legal           0.215049
+dtype: float64
+58
+---
+pf_expression_killed  pf_expression_killed             1.000000
+                      pf_expression_jailed             0.256181
+                      pf_expression_influence          0.165696
+                      pf_expression_control            0.276234
+                      pf_expression_cable              0.114887
+                      pf_expression_newspapers         0.195048
+                      pf_expression_internet           0.085044
+                      pf_expression                    0.438715
+                      pf_identity_legal                0.086588
+                      pf_identity_parental_marriage    0.127517
+dtype: float64
+59
+---
+pf_expression_jailed  pf_expression_jailed             1.000000
+                      pf_expression_influence          0.358430
+                      pf_expression_control            0.381915
+                      pf_expression_cable              0.102915
+                      pf_expression_newspapers         0.290191
+                      pf_expression_internet           0.302059
+                      pf_expression                    0.487694
+                      pf_identity_legal                0.167804
+                      pf_identity_parental_marriage    0.232902
+                      pf_identity_parental_divorce     0.255679
+dtype: float64
+60
+---
+pf_expression_influence  pf_expression_influence          1.000000
+                         pf_expression_control            0.911900
+                         pf_expression_cable              0.538296
+                         pf_expression_newspapers         0.619244
+                         pf_expression_internet           0.667823
+                         pf_expression                    0.853982
+                         pf_identity_legal                0.254030
+                         pf_identity_parental_marriage    0.442623
+                         pf_identity_parental_divorce     0.415861
+                         pf_identity_parental             0.441700
+dtype: float64
+61
+---
+pf_expression_control  pf_expression_control            1.000000
+                       pf_expression_cable              0.481439
+                       pf_expression_newspapers         0.568540
+                       pf_expression_internet           0.589794
+                       pf_expression                    0.843831
+                       pf_identity_legal                0.251089
+                       pf_identity_parental_marriage    0.408681
+                       pf_identity_parental_divorce     0.383389
+                       pf_identity_parental             0.408478
+                       pf_identity_sex_male             0.263935
+dtype: float64
+62
+---
+pf_expression_cable  pf_expression_cable              1.000000
+                     pf_expression_newspapers         0.769675
+                     pf_expression_internet           0.816074
+                     pf_expression                    0.774220
+                     pf_identity_legal                0.094884
+                     pf_identity_parental_marriage    0.281161
+                     pf_identity_parental_divorce     0.242709
+                     pf_identity_parental             0.268316
+                     pf_identity_sex_male             0.232001
+                     pf_identity_sex_female           0.282848
+dtype: float64
+63
+---
+pf_expression_newspapers  pf_expression_newspapers         1.000000
+                          pf_expression_internet           0.711548
+                          pf_expression                    0.835656
+                          pf_identity_legal                0.251014
+                          pf_identity_parental_marriage    0.314787
+                          pf_identity_parental_divorce     0.253432
+                          pf_identity_parental             0.291094
+                          pf_identity_sex_male             0.279778
+                          pf_identity_sex_female           0.284973
+                          pf_identity_sex                  0.301106
+dtype: float64
+64
+---
+pf_expression_internet  pf_expression_internet           1.000000
+                        pf_expression                    0.840120
+                        pf_identity_legal                0.171473
+                        pf_identity_parental_marriage    0.405082
+                        pf_identity_parental_divorce     0.367740
+                        pf_identity_parental             0.398321
+                        pf_identity_sex_male             0.361229
+                        pf_identity_sex_female           0.351970
+                        pf_identity_sex                  0.384006
+                        pf_identity_divorce              0.427748
+dtype: float64
+65
+---
+pf_expression  pf_expression                    1.000000
+               pf_identity_legal                0.263824
+               pf_identity_parental_marriage    0.445365
+               pf_identity_parental_divorce     0.396383
+               pf_identity_parental             0.433512
+               pf_identity_sex_male             0.321672
+               pf_identity_sex_female           0.340995
+               pf_identity_sex                  0.354647
+               pf_identity_divorce              0.460410
+               pf_identity                      0.497679
+dtype: float64
+66
+---
+pf_identity_legal  pf_identity_legal                1.000000
+                   pf_identity_parental_marriage    0.293206
+                   pf_identity_parental_divorce     0.146387
+                   pf_identity_parental             0.223286
+                   pf_identity_sex_male             0.151067
+                   pf_identity_sex_female          -0.020295
+                   pf_identity_sex                  0.086081
+                   pf_identity_divorce              0.173089
+                   pf_identity                      0.580650
+                   pf_score                         0.387619
+dtype: float64
+67
+---
+pf_identity_parental_marriage  pf_identity_parental_marriage    1.000000
+                               pf_identity_parental_divorce     0.877175
+                               pf_identity_parental             0.969892
+                               pf_identity_sex_male             0.505251
+                               pf_identity_sex_female           0.438672
+                               pf_identity_sex                  0.507827
+                               pf_identity_divorce              0.742958
+                               pf_identity                      0.856415
+                               pf_score                         0.645587
+                               pf_rank                         -0.644467
+dtype: float64
+68
+---
+pf_identity_parental_divorce  pf_identity_parental_divorce    1.000000
+                              pf_identity_parental            0.967803
+                              pf_identity_sex_male            0.464114
+                              pf_identity_sex_female          0.393951
+                              pf_identity_sex                 0.461322
+                              pf_identity_divorce             0.759181
+                              pf_identity                     0.813291
+                              pf_score                        0.594495
+                              pf_rank                        -0.595860
+                              ef_government_consumption      -0.008613
+dtype: float64
+69
+---
+pf_identity_parental  pf_identity_parental         1.000000
+                      pf_identity_sex_male         0.494580
+                      pf_identity_sex_female       0.421809
+                      pf_identity_sex              0.492600
+                      pf_identity_divorce          0.767684
+                      pf_identity                  0.856597
+                      pf_score                     0.638959
+                      pf_rank                     -0.638789
+                      ef_government_consumption    0.009569
+                      ef_government_transfers     -0.375237
+dtype: float64
+70
+---
+pf_identity_sex_male  pf_identity_sex_male         1.000000
+                      pf_identity_sex_female       0.737137
+                      pf_identity_sex              0.941636
+                      pf_identity_divorce          0.467393
+                      pf_identity                  0.733621
+                      pf_score                     0.560412
+                      pf_rank                     -0.549514
+                      ef_government_consumption   -0.090691
+                      ef_government_transfers     -0.374004
+                      ef_government_enterprises    0.260611
+dtype: float64
+71
+---
+pf_identity_sex_female  pf_identity_sex_female       1.000000
+                        pf_identity_sex              0.921592
+                        pf_identity_divorce          0.438447
+                        pf_identity                  0.667372
+                        pf_score                     0.499130
+                        pf_rank                     -0.476886
+                        ef_government_consumption   -0.027277
+                        ef_government_transfers     -0.256160
+                        ef_government_enterprises    0.322890
+                        ef_government_tax_income    -0.114803
+dtype: float64
+72
+---
+pf_identity_sex  pf_identity_sex              1.000000
+                 pf_identity_divorce          0.481764
+                 pf_identity                  0.753868
+                 pf_score                     0.570561
+                 pf_rank                     -0.553220
+                 ef_government_consumption   -0.065683
+                 ef_government_transfers     -0.342471
+                 ef_government_enterprises    0.311021
+                 ef_government_tax_income    -0.162636
+                 ef_government_tax_payroll   -0.222431
+dtype: float64
+73
+---
+pf_identity_divorce  pf_identity_divorce          1.000000
+                     pf_identity                  0.852050
+                     pf_score                     0.631775
+                     pf_rank                     -0.632343
+                     ef_government_consumption    0.068056
+                     ef_government_transfers     -0.323958
+                     ef_government_enterprises    0.256653
+                     ef_government_tax_income    -0.185442
+                     ef_government_tax_payroll   -0.313896
+                     ef_government_tax           -0.273868
+dtype: float64
+74
+---
+pf_identity  pf_identity                  1.000000
+             pf_score                     0.738518
+             pf_rank                     -0.731440
+             ef_government_consumption   -0.019544
+             ef_government_transfers     -0.429436
+             ef_government_enterprises    0.278033
+             ef_government_tax_income    -0.190818
+             ef_government_tax_payroll   -0.295052
+             ef_government_tax           -0.267835
+             ef_government               -0.094033
+dtype: float64
+75
+---
+pf_score  pf_score                     1.000000
+          pf_rank                     -0.987955
+          ef_government_consumption   -0.197456
+          ef_government_transfers     -0.606269
+          ef_government_enterprises    0.450672
+          ef_government_tax_income    -0.353728
+          ef_government_tax_payroll   -0.365067
+          ef_government_tax           -0.390205
+          ef_government               -0.215046
+          ef_legal_judicial            0.479385
+dtype: float64
+76
+---
+pf_rank  pf_rank                      1.000000
+         ef_government_consumption    0.209800
+         ef_government_transfers      0.612988
+         ef_government_enterprises   -0.436846
+         ef_government_tax_income     0.339860
+         ef_government_tax_payroll    0.364103
+         ef_government_tax            0.382142
+         ef_government                0.232693
+         ef_legal_judicial           -0.478618
+         ef_legal_courts             -0.331169
+dtype: float64
+77
+---
+ef_government_consumption  ef_government_consumption    1.000000
+                           ef_government_transfers      0.467654
+                           ef_government_enterprises   -0.114583
+                           ef_government_tax_income     0.193822
+                           ef_government_tax_payroll    0.073551
+                           ef_government_tax            0.149055
+                           ef_government                0.680520
+                           ef_legal_judicial           -0.412997
+                           ef_legal_courts             -0.361619
+                           ef_legal_protection         -0.361619
+dtype: float64
+78
+---
+ef_government_transfers  ef_government_transfers      1.000000
+                         ef_government_enterprises   -0.349358
+                         ef_government_tax_income     0.357650
+                         ef_government_tax_payroll    0.404283
+                         ef_government_tax            0.421144
+                         ef_government                0.604180
+                         ef_legal_judicial           -0.356490
+                         ef_legal_courts             -0.175986
+                         ef_legal_protection         -0.335057
+                         ef_legal_military           -0.554488
+dtype: float64
+79
+---
+ef_government_enterprises  ef_government_enterprises    1.000000
+                           ef_government_tax_income    -0.281259
+                           ef_government_tax_payroll   -0.127233
+                           ef_government_tax           -0.228263
+                           ef_government                0.315286
+                           ef_legal_judicial            0.252405
+                           ef_legal_courts              0.192794
+                           ef_legal_protection          0.290129
+                           ef_legal_military            0.388510
+                           ef_legal_integrity           0.317844
+dtype: float64
+80
+---
+ef_government_tax_income  ef_government_tax_income     1.000000
+                          ef_government_tax_payroll    0.685150
+                          ef_government_tax            0.904249
+                          ef_government                0.459614
+                          ef_legal_judicial           -0.273886
+                          ef_legal_courts             -0.226553
+                          ef_legal_protection         -0.279659
+                          ef_legal_military           -0.176094
+                          ef_legal_integrity          -0.364358
+                          ef_legal_enforcement        -0.109765
+dtype: float64
+81
+---
+ef_government_tax_payroll  ef_government_tax_payroll    1.000000
+                           ef_government_tax            0.929454
+                           ef_government                0.518574
+                           ef_legal_judicial           -0.045776
+                           ef_legal_courts              0.053952
+                           ef_legal_protection         -0.041342
+                           ef_legal_military           -0.118121
+                           ef_legal_integrity          -0.169841
+                           ef_legal_enforcement        -0.076014
+                           ef_legal_restrictions        0.065391
+dtype: float64
+82
+---
+ef_government_tax  ef_government_tax        1.000000
+                   ef_government            0.536255
+                   ef_legal_judicial       -0.161342
+                   ef_legal_courts         -0.089116
+                   ef_legal_protection     -0.166388
+                   ef_legal_military       -0.167546
+                   ef_legal_integrity      -0.291159
+                   ef_legal_enforcement    -0.105259
+                   ef_legal_restrictions    0.106157
+                   ef_legal_police         -0.208428
+dtype: float64
+83
+---
+ef_government  ef_government            1.000000
+               ef_legal_judicial       -0.254790
+               ef_legal_courts         -0.148136
+               ef_legal_protection     -0.196371
+               ef_legal_military       -0.272401
+               ef_legal_integrity      -0.403804
+               ef_legal_enforcement    -0.202859
+               ef_legal_restrictions   -0.042068
+               ef_legal_police         -0.310448
+               ef_legal_crime          -0.294068
+dtype: float64
+84
+---
+ef_legal_judicial  ef_legal_judicial        1.000000
+                   ef_legal_courts          0.884352
+                   ef_legal_protection      0.913935
+                   ef_legal_military        0.637706
+                   ef_legal_integrity       0.674151
+                   ef_legal_enforcement     0.421760
+                   ef_legal_restrictions    0.210318
+                   ef_legal_police          0.762042
+                   ef_legal_crime           0.518386
+                   ef_legal_gender          0.205430
+dtype: float64
+85
+---
+ef_legal_courts  ef_legal_courts          1.000000
+                 ef_legal_protection      0.887339
+                 ef_legal_military        0.514411
+                 ef_legal_integrity       0.617280
+                 ef_legal_enforcement     0.443548
+                 ef_legal_restrictions    0.184208
+                 ef_legal_police          0.784416
+                 ef_legal_crime           0.569083
+                 ef_legal_gender          0.115226
+                 ef_legal                 0.788310
+dtype: float64
+86
+---
+ef_legal_protection  ef_legal_protection      1.000000
+                     ef_legal_military        0.625740
+                     ef_legal_integrity       0.695123
+                     ef_legal_enforcement     0.449152
+                     ef_legal_restrictions    0.238911
+                     ef_legal_police          0.814338
+                     ef_legal_crime           0.571761
+                     ef_legal_gender          0.208267
+                     ef_legal                 0.865728
+                     ef_money_growth          0.296656
+dtype: float64
+87
+---
+ef_legal_military  ef_legal_military        1.000000
+                   ef_legal_integrity       0.652037
+                   ef_legal_enforcement     0.423974
+                   ef_legal_restrictions    0.280722
+                   ef_legal_police          0.599286
+                   ef_legal_crime           0.514862
+                   ef_legal_gender          0.337170
+                   ef_legal                 0.791659
+                   ef_money_growth          0.095387
+                   ef_money_sd              0.272934
+dtype: float64
+88
+---
+ef_legal_integrity  ef_legal_integrity       1.000000
+                    ef_legal_enforcement     0.566815
+                    ef_legal_restrictions    0.266433
+                    ef_legal_police          0.785925
+                    ef_legal_crime           0.762145
+                    ef_legal_gender          0.119478
+                    ef_legal                 0.820725
+                    ef_money_growth          0.277231
+                    ef_money_sd              0.114456
+                    ef_money_inflation       0.268676
+dtype: float64
+89
+---
+ef_legal_enforcement  ef_legal_enforcement     1.000000
+                      ef_legal_restrictions    0.455324
+                      ef_legal_police          0.497588
+                      ef_legal_crime           0.520932
+                      ef_legal_gender          0.144949
+                      ef_legal                 0.644467
+                      ef_money_growth          0.159992
+                      ef_money_sd              0.095023
+                      ef_money_inflation       0.148490
+                      ef_money_currency        0.269580
+dtype: float64
+90
+---
+ef_legal_restrictions  ef_legal_restrictions    1.000000
+                       ef_legal_police          0.233622
+                       ef_legal_crime           0.281178
+                       ef_legal_gender          0.071080
+                       ef_legal                 0.393235
+                       ef_money_growth         -0.042255
+                       ef_money_sd              0.007883
+                       ef_money_inflation       0.069332
+                       ef_money_currency        0.367268
+                       ef_money                 0.282368
+dtype: float64
+91
+---
+ef_legal_police  ef_legal_police             1.000000
+                 ef_legal_crime              0.816358
+                 ef_legal_gender             0.105066
+                 ef_legal                    0.845926
+                 ef_money_growth             0.276187
+                 ef_money_sd                 0.221868
+                 ef_money_inflation          0.316021
+                 ef_money_currency           0.270349
+                 ef_money                    0.409543
+                 ef_trade_tariffs_revenue    0.259748
+dtype: float64
+92
+---
+ef_legal_crime  ef_legal_crime              1.000000
+                ef_legal_gender             0.026419
+                ef_legal                    0.720442
+                ef_money_growth             0.304738
+                ef_money_sd                 0.131316
+                ef_money_inflation          0.331173
+                ef_money_currency           0.264036
+                ef_money                    0.382761
+                ef_trade_tariffs_revenue    0.215895
+                ef_trade_tariffs_mean       0.349239
+dtype: float64
+93
+---
+ef_legal_gender  ef_legal_gender             1.000000
+                 ef_legal                    0.458533
+                 ef_money_growth            -0.116244
+                 ef_money_sd                 0.462284
+                 ef_money_inflation          0.203524
+                 ef_money_currency           0.237200
+                 ef_money                    0.378277
+                 ef_trade_tariffs_revenue    0.186305
+                 ef_trade_tariffs_mean       0.298328
+                 ef_trade_tariffs_sd         0.136732
+dtype: float64
+94
+---
+ef_legal  ef_legal                    1.000000
+          ef_money_growth             0.203063
+          ef_money_sd                 0.362092
+          ef_money_inflation          0.360354
+          ef_money_currency           0.373597
+          ef_money                    0.535330
+          ef_trade_tariffs_revenue    0.303108
+          ef_trade_tariffs_mean       0.430531
+          ef_trade_tariffs_sd         0.002334
+          ef_trade_tariffs            0.276664
+dtype: float64
+95
+---
+ef_money_growth  ef_money_growth                  1.000000
+                 ef_money_sd                      0.319257
+                 ef_money_inflation               0.436260
+                 ef_money_currency                0.051404
+                 ef_money                         0.431555
+                 ef_trade_tariffs_revenue         0.227307
+                 ef_trade_tariffs_mean            0.149678
+                 ef_trade_tariffs_sd             -0.003429
+                 ef_trade_tariffs                 0.135322
+                 ef_trade_regulatory_nontariff    0.095994
+dtype: float64
+96
+---
+ef_money_sd  ef_money_sd                       1.000000
+             ef_money_inflation                0.591790
+             ef_money_currency                 0.020901
+             ef_money                          0.572236
+             ef_trade_tariffs_revenue          0.063996
+             ef_trade_tariffs_mean             0.190189
+             ef_trade_tariffs_sd               0.016432
+             ef_trade_tariffs                  0.099732
+             ef_trade_regulatory_nontariff     0.246753
+             ef_trade_regulatory_compliance    0.438379
+dtype: float64
+97
+---
+ef_money_inflation  ef_money_inflation                1.000000
+                    ef_money_currency                 0.075447
+                    ef_money                          0.612003
+                    ef_trade_tariffs_revenue          0.156349
+                    ef_trade_tariffs_mean             0.233965
+                    ef_trade_tariffs_sd               0.109502
+                    ef_trade_tariffs                  0.198715
+                    ef_trade_regulatory_nontariff     0.242302
+                    ef_trade_regulatory_compliance    0.379710
+                    ef_trade_regulatory               0.384313
+dtype: float64
+98
+---
+ef_money_currency  ef_money_currency                 1.000000
+                   ef_money                          0.765212
+                   ef_trade_tariffs_revenue          0.378208
+                   ef_trade_tariffs_mean             0.518368
+                   ef_trade_tariffs_sd               0.180134
+                   ef_trade_tariffs                  0.439437
+                   ef_trade_regulatory_nontariff     0.407218
+                   ef_trade_regulatory_compliance    0.306936
+                   ef_trade_regulatory               0.360579
+                   ef_trade_black                    0.002751
+dtype: float64
+99
+---
+ef_money  ef_money                          1.000000
+          ef_trade_tariffs_revenue          0.379160
+          ef_trade_tariffs_mean             0.565791
+          ef_trade_tariffs_sd               0.183605
+          ef_trade_tariffs                  0.455608
+          ef_trade_regulatory_nontariff     0.462714
+          ef_trade_regulatory_compliance    0.522977
+          ef_trade_regulatory               0.559404
+          ef_trade_black                    0.421716
+          ef_trade_movement_foreign         0.510583
+dtype: float64
+100
+---
+ef_trade_tariffs_revenue  ef_trade_tariffs_revenue          1.000000
+                          ef_trade_tariffs_mean             0.446511
+                          ef_trade_tariffs_sd               0.127213
+                          ef_trade_tariffs                  0.665554
+                          ef_trade_regulatory_nontariff     0.335443
+                          ef_trade_regulatory_compliance    0.327166
+                          ef_trade_regulatory               0.355634
+                          ef_trade_black                    0.132895
+                          ef_trade_movement_foreign         0.242640
+                          ef_trade_movement_capital         0.290928
+dtype: float64
+101
+---
+ef_trade_tariffs_mean  ef_trade_tariffs_mean             1.000000
+                       ef_trade_tariffs_sd               0.527617
+                       ef_trade_tariffs                  0.807306
+                       ef_trade_regulatory_nontariff     0.495058
+                       ef_trade_regulatory_compliance    0.523431
+                       ef_trade_regulatory               0.539769
+                       ef_trade_black                    0.192040
+                       ef_trade_movement_foreign         0.446391
+                       ef_trade_movement_capital         0.465014
+                       ef_trade_movement_visit           0.318100
+dtype: float64
+102
+---
+ef_trade_tariffs_sd  ef_trade_tariffs_sd               1.000000
+                     ef_trade_tariffs                  0.787668
+                     ef_trade_regulatory_nontariff     0.141622
+                     ef_trade_regulatory_compliance    0.131009
+                     ef_trade_regulatory               0.130786
+                     ef_trade_black                    0.012022
+                     ef_trade_movement_foreign         0.132315
+                     ef_trade_movement_capital         0.246757
+                     ef_trade_movement_visit           0.032198
+                     ef_trade_movement                 0.164802
+dtype: float64
+103
+---
+ef_trade_tariffs  ef_trade_tariffs                  1.000000
+                  ef_trade_regulatory_nontariff     0.383609
+                  ef_trade_regulatory_compliance    0.387315
+                  ef_trade_regulatory               0.405777
+                  ef_trade_black                    0.124911
+                  ef_trade_movement_foreign         0.318871
+                  ef_trade_movement_capital         0.411297
+                  ef_trade_movement_visit           0.214419
+                  ef_trade_movement                 0.406968
+                  ef_trade                          0.638228
+dtype: float64
+104
+---
+ef_trade_regulatory_nontariff  ef_trade_regulatory_nontariff     1.000000
+                               ef_trade_regulatory_compliance    0.437706
+                               ef_trade_regulatory               0.639235
+                               ef_trade_black                    0.208912
+                               ef_trade_movement_foreign         0.696448
+                               ef_trade_movement_capital         0.318802
+                               ef_trade_movement_visit           0.280211
+                               ef_trade_movement                 0.491201
+                               ef_trade                          0.627142
+                               ef_regulation_credit_ownership    0.338592
+dtype: float64
+105
+---
+ef_trade_regulatory_compliance  ef_trade_regulatory_compliance    1.000000
+                                ef_trade_regulatory               0.969394
+                                ef_trade_black                    0.247019
+                                ef_trade_movement_foreign         0.478117
+                                ef_trade_movement_capital         0.304252
+                                ef_trade_movement_visit           0.384313
+                                ef_trade_movement                 0.490418
+                                ef_trade                          0.780697
+                                ef_regulation_credit_ownership    0.433421
+                                ef_regulation_credit_private      0.390721
+dtype: float64
+106
+---
+ef_trade_regulatory  ef_trade_regulatory               1.000000
+                     ef_trade_black                    0.263733
+                     ef_trade_movement_foreign         0.593397
+                     ef_trade_movement_capital         0.339106
+                     ef_trade_movement_visit           0.412469
+                     ef_trade_movement                 0.551447
+                     ef_trade                          0.829459
+                     ef_regulation_credit_ownership    0.463715
+                     ef_regulation_credit_private      0.387924
+                     ef_regulation_credit_interest     0.340197
+dtype: float64
+107
+---
+ef_trade_black  ef_trade_black                    1.000000
+                ef_trade_movement_foreign         0.231608
+                ef_trade_movement_capital         0.171905
+                ef_trade_movement_visit           0.059550
+                ef_trade_movement                 0.166678
+                ef_trade                          0.506707
+                ef_regulation_credit_ownership    0.270876
+                ef_regulation_credit_private      0.250963
+                ef_regulation_credit_interest     0.168424
+                ef_regulation_credit              0.332929
+dtype: float64
+108
+---
+ef_trade_movement_foreign  ef_trade_movement_foreign         1.000000
+                           ef_trade_movement_capital         0.384338
+                           ef_trade_movement_visit           0.277530
+                           ef_trade_movement                 0.596035
+                           ef_trade                          0.640186
+                           ef_regulation_credit_ownership    0.372601
+                           ef_regulation_credit_private      0.238085
+                           ef_regulation_credit_interest     0.325605
+                           ef_regulation_credit              0.438793
+                           ef_regulation_labor_minwage       0.178178
+dtype: float64
+109
+---
+ef_trade_movement_capital  ef_trade_movement_capital         1.000000
+                           ef_trade_movement_visit           0.272981
+                           ef_trade_movement                 0.749129
+                           ef_trade                          0.608797
+                           ef_regulation_credit_ownership    0.300698
+                           ef_regulation_credit_private      0.102163
+                           ef_regulation_credit_interest     0.235190
+                           ef_regulation_credit              0.291412
+                           ef_regulation_labor_minwage       0.121035
+                           ef_regulation_labor_firing        0.251205
+dtype: float64
+110
+---
+ef_trade_movement_visit  ef_trade_movement_visit           1.000000
+                         ef_trade_movement                 0.804580
+                         ef_trade                          0.586794
+                         ef_regulation_credit_ownership    0.387829
+                         ef_regulation_credit_private      0.164407
+                         ef_regulation_credit_interest     0.041589
+                         ef_regulation_credit              0.327098
+                         ef_regulation_labor_minwage      -0.137743
+                         ef_regulation_labor_firing       -0.067791
+                         ef_regulation_labor_bargain       0.007141
+dtype: float64
+111
+---
+ef_trade_movement  ef_trade_movement                 1.000000
+                   ef_trade                          0.804939
+                   ef_regulation_credit_ownership    0.445035
+                   ef_regulation_credit_private      0.202612
+                   ef_regulation_credit_interest     0.206327
+                   ef_regulation_credit              0.429485
+                   ef_regulation_labor_minwage       0.040265
+                   ef_regulation_labor_firing        0.167484
+                   ef_regulation_labor_bargain       0.155490
+                   ef_regulation_labor_hours         0.096271
+dtype: float64
+112
+---
+ef_trade  ef_trade                          1.000000
+          ef_regulation_credit_ownership    0.555837
+          ef_regulation_credit_private      0.345509
+          ef_regulation_credit_interest     0.339266
+          ef_regulation_credit              0.610418
+          ef_regulation_labor_minwage       0.112939
+          ef_regulation_labor_firing        0.293266
+          ef_regulation_labor_bargain       0.211944
+          ef_regulation_labor_hours         0.072067
+          ef_regulation_labor_dismissal     0.268982
+dtype: float64
+113
+---
+ef_regulation_credit_ownership  ef_regulation_credit_ownership      1.000000
+                                ef_regulation_credit_private        0.144549
+                                ef_regulation_credit_interest       0.191057
+                                ef_regulation_credit                0.726829
+                                ef_regulation_labor_minwage         0.060598
+                                ef_regulation_labor_firing          0.149802
+                                ef_regulation_labor_bargain         0.198499
+                                ef_regulation_labor_hours           0.021482
+                                ef_regulation_labor_dismissal       0.285425
+                                ef_regulation_labor_conscription    0.130070
+dtype: float64
+114
+---
+ef_regulation_credit_private  ef_regulation_credit_private        1.000000
+                              ef_regulation_credit_interest       0.060864
+                              ef_regulation_credit                0.736762
+                              ef_regulation_labor_minwage         0.020907
+                              ef_regulation_labor_firing          0.163874
+                              ef_regulation_labor_bargain        -0.019208
+                              ef_regulation_labor_hours           0.092773
+                              ef_regulation_labor_dismissal       0.194107
+                              ef_regulation_labor_conscription   -0.032847
+                              ef_regulation_labor                 0.112948
+dtype: float64
+115
+---
+ef_regulation_credit_interest  ef_regulation_credit_interest       1.000000
+                               ef_regulation_credit                0.452059
+                               ef_regulation_labor_minwage         0.188610
+                               ef_regulation_labor_firing          0.221980
+                               ef_regulation_labor_bargain         0.172882
+                               ef_regulation_labor_hours           0.000938
+                               ef_regulation_labor_dismissal       0.052141
+                               ef_regulation_labor_conscription    0.064656
+                               ef_regulation_labor                 0.187396
+                               ef_regulation_business_adm          0.199561
+dtype: float64
+116
+---
+ef_regulation_credit  ef_regulation_credit                  1.000000
+                      ef_regulation_labor_minwage           0.081390
+                      ef_regulation_labor_firing            0.242380
+                      ef_regulation_labor_bargain           0.150369
+                      ef_regulation_labor_hours             0.069714
+                      ef_regulation_labor_dismissal         0.303131
+                      ef_regulation_labor_conscription      0.043812
+                      ef_regulation_labor                   0.246362
+                      ef_regulation_business_adm            0.206076
+                      ef_regulation_business_bureaucracy    0.513821
+dtype: float64
+117
+---
+ef_regulation_labor_minwage  ef_regulation_labor_minwage           1.000000
+                             ef_regulation_labor_firing            0.436509
+                             ef_regulation_labor_bargain           0.252047
+                             ef_regulation_labor_hours             0.193489
+                             ef_regulation_labor_dismissal         0.166668
+                             ef_regulation_labor_conscription      0.184932
+                             ef_regulation_labor                   0.670800
+                             ef_regulation_business_adm            0.367933
+                             ef_regulation_business_bureaucracy    0.226142
+                             ef_regulation_business_start          0.149693
+dtype: float64
+118
+---
+ef_regulation_labor_firing  ef_regulation_labor_firing            1.000000
+                            ef_regulation_labor_bargain           0.440695
+                            ef_regulation_labor_hours             0.147459
+                            ef_regulation_labor_dismissal         0.140734
+                            ef_regulation_labor_conscription     -0.010862
+                            ef_regulation_labor                   0.484793
+                            ef_regulation_business_adm            0.720329
+                            ef_regulation_business_bureaucracy    0.295133
+                            ef_regulation_business_start          0.342988
+                            ef_regulation_business_bribes         0.433278
+dtype: float64
+119
+---
+ef_regulation_labor_bargain  ef_regulation_labor_bargain           1.000000
+                             ef_regulation_labor_hours             0.048628
+                             ef_regulation_labor_dismissal         0.097746
+                             ef_regulation_labor_conscription     -0.084218
+                             ef_regulation_labor                   0.331802
+                             ef_regulation_business_adm            0.243723
+                             ef_regulation_business_bureaucracy    0.168050
+                             ef_regulation_business_start          0.194523
+                             ef_regulation_business_bribes         0.065134
+                             ef_regulation_business_licensing      0.258987
+dtype: float64
+120
+---
+ef_regulation_labor_hours  ef_regulation_labor_hours             1.000000
+                           ef_regulation_labor_dismissal        -0.062823
+                           ef_regulation_labor_conscription      0.127944
+                           ef_regulation_labor                   0.389898
+                           ef_regulation_business_adm            0.077357
+                           ef_regulation_business_bureaucracy    0.136319
+                           ef_regulation_business_start         -0.004204
+                           ef_regulation_business_bribes        -0.007397
+                           ef_regulation_business_licensing      0.102365
+                           ef_regulation_business_compliance     0.060118
+dtype: float64
+121
+---
+ef_regulation_labor_dismissal  ef_regulation_labor_dismissal         1.000000
+                               ef_regulation_labor_conscription      0.126406
+                               ef_regulation_labor                   0.517884
+                               ef_regulation_business_adm            0.191427
+                               ef_regulation_business_bureaucracy    0.174769
+                               ef_regulation_business_start          0.067442
+                               ef_regulation_business_bribes         0.311798
+                               ef_regulation_business_licensing      0.029519
+                               ef_regulation_business_compliance     0.189371
+                               ef_regulation_business                0.237150
+dtype: float64
+122
+---
+ef_regulation_labor_conscription  ef_regulation_labor_conscription      1.000000
+                                  ef_regulation_labor                   0.663992
+                                  ef_regulation_business_adm           -0.051959
+                                  ef_regulation_business_bureaucracy    0.107171
+                                  ef_regulation_business_start         -0.028034
+                                  ef_regulation_business_bribes         0.084786
+                                  ef_regulation_business_licensing     -0.053673
+                                  ef_regulation_business_compliance     0.134180
+                                  ef_regulation_business                0.062714
+                                  ef_regulation                         0.337633
+dtype: float64
+123
+---
+ef_regulation_labor  ef_regulation_labor                   1.000000
+                     ef_regulation_business_adm            0.358459
+                     ef_regulation_business_bureaucracy    0.315541
+                     ef_regulation_business_start          0.158462
+                     ef_regulation_business_bribes         0.370064
+                     ef_regulation_business_licensing      0.193276
+                     ef_regulation_business_compliance     0.347294
+                     ef_regulation_business                0.393775
+                     ef_regulation                         0.713722
+                     ef_score                              0.510193
+dtype: float64
+124
+---
+ef_regulation_business_adm  ef_regulation_business_adm            1.000000
+                            ef_regulation_business_bureaucracy    0.358915
+                            ef_regulation_business_start          0.347243
+                            ef_regulation_business_bribes         0.630890
+                            ef_regulation_business_licensing      0.329246
+                            ef_regulation_business_compliance     0.437952
+                            ef_regulation_business                0.658723
+                            ef_regulation                         0.514715
+                            ef_score                              0.458741
+                            ef_rank                              -0.408798
+dtype: float64
+125
+---
+ef_regulation_business_bureaucracy  ef_regulation_business_bureaucracy    1.000000
+                                    ef_regulation_business_start          0.576966
+                                    ef_regulation_business_bribes         0.652382
+                                    ef_regulation_business_licensing      0.236844
+                                    ef_regulation_business_compliance     0.505224
+                                    ef_regulation_business                0.825930
+                                    ef_regulation                         0.712726
+                                    ef_score                              0.743825
+                                    ef_rank                              -0.755665
+                                    hf_score                              0.753724
+dtype: float64
+126
+---
+ef_regulation_business_start  ef_regulation_business_start         1.000000
+                              ef_regulation_business_bribes        0.407405
+                              ef_regulation_business_licensing     0.335708
+                              ef_regulation_business_compliance    0.402338
+                              ef_regulation_business               0.640999
+                              ef_regulation                        0.431918
+                              ef_score                             0.451878
+                              ef_rank                             -0.404680
+                              hf_score                             0.370782
+                              hf_rank                             -0.337090
+dtype: float64
+127
+---
+ef_regulation_business_bribes  ef_regulation_business_bribes        1.000000
+                               ef_regulation_business_licensing     0.327160
+                               ef_regulation_business_compliance    0.563744
+                               ef_regulation_business               0.835787
+                               ef_regulation                        0.648644
+                               ef_score                             0.641329
+                               ef_rank                             -0.660673
+                               hf_score                             0.562956
+                               hf_rank                             -0.560400
+                               hf_quartile                         -0.549745
+dtype: float64
+128
+---
+ef_regulation_business_licensing   ef_regulation_business_licensing     1.000000
+                                   ef_regulation_business_compliance    0.305394
+                                   ef_regulation_business               0.511147
+                                   ef_regulation                        0.394393
+                                   ef_score                             0.303533
+                                   ef_rank                             -0.259477
+                                   hf_score                             0.153689
+                                   hf_rank                             -0.146657
+                                   hf_quartile                         -0.164046
+ef_regulation_business_compliance  World Rank                          -0.507745
+dtype: float64
+129
+---
+ef_regulation_business_compliance  ef_regulation_business_compliance    1.000000
+                                   ef_regulation_business               0.768531
+                                   ef_regulation                        0.599388
+                                   ef_score                             0.591101
+                                   ef_rank                             -0.546221
+                                   hf_score                             0.481359
+                                   hf_rank                             -0.452490
+                                   hf_quartile                         -0.431164
+ef_regulation_business             World Rank                          -0.795223
+                                   2019 Score                           0.838153
+dtype: float64
+130
+---
+ef_regulation_business  ef_regulation_business    1.000000
+                        ef_regulation             0.790511
+                        ef_score                  0.754939
+                        ef_rank                  -0.725226
+                        hf_score                  0.652937
+                        hf_rank                  -0.621752
+                        hf_quartile              -0.592388
+ef_regulation           World Rank               -0.785228
+                        2019 Score                0.818999
+                        Judical Effectiveness     0.629334
+dtype: float64
+131
+---
+ef_regulation  ef_regulation            1.000000
+               ef_score                 0.831026
+               ef_rank                 -0.774723
+               hf_score                 0.710061
+               hf_rank                 -0.688578
+               hf_quartile             -0.642291
+ef_score       World Rank              -0.830066
+               2019 Score               0.860782
+               Judical Effectiveness    0.631853
+               Government Integrity     0.674982
+dtype: float64
+132
+---
+ef_score  ef_score                 1.000000
+          ef_rank                 -0.954540
+          hf_score                 0.860566
+          hf_rank                 -0.834329
+          hf_quartile             -0.801561
+ef_rank   World Rank               0.856261
+          2019 Score              -0.839032
+          Judical Effectiveness   -0.638085
+          Government Integrity    -0.697038
+          Tax Burden               0.084359
+dtype: float64
+133
+---
+ef_rank   ef_rank                  1.000000
+          hf_score                -0.866245
+          hf_rank                  0.867823
+          hf_quartile              0.853335
+hf_score  World Rank              -0.767207
+          2019 Score               0.775555
+          Judical Effectiveness    0.603363
+          Government Integrity     0.688216
+          Tax Burden              -0.315603
+          Gov't Spending          -0.304375
+dtype: float64
+134
+---
+hf_score  hf_score                 1.000000
+          hf_rank                 -0.983054
+          hf_quartile             -0.939021
+hf_rank   World Rank               0.760716
+          2019 Score              -0.752495
+          Judical Effectiveness   -0.582006
+          Government Integrity    -0.672278
+          Tax Burden               0.321099
+          Gov't Spending           0.319331
+          Business Freedom        -0.617332
+dtype: float64
+135
+---
+hf_rank      hf_rank                  1.000000
+             hf_quartile              0.966953
+hf_quartile  World Rank               0.740070
+             2019 Score              -0.723103
+             Judical Effectiveness   -0.574014
+             Government Integrity    -0.643994
+             Tax Burden               0.312695
+             Gov't Spending           0.281850
+             Business Freedom        -0.585712
+             Trade Freedom           -0.636191
+dtype: float64
+136
+---
+hf_quartile  hf_quartile    1.0
+dtype: float64
+pf_identity_sex                    ef_legal_courts                      0.000086
+ef_money_inflation                 Gov't Expenditure % of GDP           0.000220
+ef_regulation_credit               ef_government                        0.000303
+ef_money_growth                    pf_ss_disappearances                 0.000328
+pf_ss_women_fgm                    ef_regulation_labor_hours            0.000352
+ef_regulation_labor_hours          pf_ss_women_inheritance_widows       0.000430
+pf_expression_jailed               2019 Score                           0.000528
+ef_regulation_business_compliance  pf_religion                          0.000587
+ef_trade_regulatory_compliance     ef_regulation_labor_minwage          0.000644
+Financial Freedom                  ef_regulation_labor_hours            0.000780
+pf_ss_homicide                     pf_association_prof                  0.000783
+ef_trade                           Income Tax Rate (%)                  0.000843
+ef_regulation_credit_interest      ef_regulation_labor_hours            0.000938
+pf_identity                        Population (Millions)                0.000963
+pf_ss_women_fgm                    Tax Burden                           0.001013
+ef_regulation_labor_dismissal      Income Tax Rate (%)                  0.001038
+Corporate Tax Rate (%)             pf_expression_cable                  0.001070
+ef_legal_restrictions              pf_expression_internet               0.001172
+ef_money_growth                    pf_ss_disappearances_fatalities      0.001173
+pf_religion                        pf_ss_women_fgm                      0.001191
+ef_money_growth                    pf_expression_influence              0.001212
+ef_money                           ef_government_tax_payroll            0.001218
+ef_regulation_business_licensing   pf_expression_killed                 0.001231
+ef_trade_regulatory_nontariff      ef_government                        0.001248
+pf_ss_women_fgm                    ef_regulation_labor_firing           0.001383
+ef_legal_courts                    pf_identity_sex_male                 0.001408
+                                   pf_identity_sex_female               0.001796
+pf_identity_parental_divorce       ef_regulation_business_start         0.001830
+ef_trade_black                     pf_ss_women_inheritance_daughters    0.001883
+Gov't Expenditure % of GDP         Income Tax Rate (%)                  0.001990
+                                                                          ...   
+pf_association                     pf_association_association           0.912114
+pf_rol_civil                       pf_rol_criminal                      0.913843
+ef_legal_judicial                  ef_legal_protection                  0.913935
+pf_identity_sex_female             pf_identity_sex                      0.921592
+ef_regulation_business_bribes      Government Integrity                 0.925453
+pf_association_political           pf_association                       0.929185
+ef_government_tax_payroll          ef_government_tax                    0.929454
+hf_score                           pf_rank                              0.934007
+hf_quartile                        hf_score                             0.939021
+hf_rank                            pf_score                             0.939796
+pf_ss_women_inheritance_daughters  pf_ss_women_inheritance_widows       0.939865
+pf_identity_sex                    pf_identity_sex_male                 0.941636
+pf_rank                            hf_rank                              0.944721
+pf_rol                             pf_rol_procedural                    0.948226
+pf_score                           hf_score                             0.948633
+pf_rol_civil                       pf_rol                               0.950438
+Tariff Rate (%)                    Trade Freedom                        0.952542
+ef_rank                            ef_score                             0.954540
+pf_rol                             pf_rol_criminal                      0.960239
+hf_quartile                        hf_rank                              0.966953
+pf_identity_parental_divorce       pf_identity_parental                 0.967803
+2019 Score                         World Rank                           0.968108
+ef_trade_regulatory_compliance     ef_trade_regulatory                  0.969394
+pf_identity_parental_marriage      pf_identity_parental                 0.969892
+hf_rank                            hf_score                             0.983054
+pf_ss_women_inheritance            pf_ss_women_inheritance_widows       0.984496
+pf_ss_women_inheritance_daughters  pf_ss_women_inheritance              0.985203
+pf_rank                            pf_score                             0.987955
+World Rank                         World Rank                           1.000000
+                                   pf_religion_estop_establish               NaN
+Length: 8258, dtype: float64
